@@ -19,8 +19,8 @@ Your request must include a JSON payload with the following key-value pairs:
 ```python
 import requests
 
-# Ensure the microservice is running locally on port 5000
-url = '[http://127.0.0.1:5000/calculate_bmi](http://127.0.0.1:5000/calculate_bmi)'
+# Ensure the microservice is running locally on port 5002
+url = '[http://127.0.0.1:5002/calculate_bmi](http://127.0.0.1:5002/calculate_bmi)'
 
 # Define the data payload
 payload = {
